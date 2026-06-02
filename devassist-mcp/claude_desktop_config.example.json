@@ -1,0 +1,14 @@
+{
+  "_comment": "Add this 'devassist' entry to your Claude Desktop config, then fully restart Claude Desktop. Config file location: macOS ~/Library/Application Support/Claude/claude_desktop_config.json | Windows %APPDATA%\\Claude\\claude_desktop_config.json. Replace ALL paths with absolute paths on your machine.",
+  "mcpServers": {
+    "devassist": {
+      "command": "C:\\Users\\RajeshReddyPatakunta\\Documents\\GitHub\\localdemo\\devassist-mcp\\.venv\\Scripts\\python.exe",
+      "args": [
+        "C:\\Users\\RajeshReddyPatakunta\\Documents\\GitHub\\localdemo\\devassist-mcp\\mcp_server\\server.py"
+      ],
+      "env": {
+        "GITHUB_TOKEN": ""
+      }
+    }
+  }
+}
